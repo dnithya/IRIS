@@ -96,7 +96,7 @@ public class TestCommandHelper {
 	}
 
 	
-	/*@Test
+	@Test
     public void testGetViewActionPropertyWithQueryParamsContainingBackslash() {
         try {
             InteractionContext ctx = createInteractionContextWithQueryParams("MyEntity", "foo....\bar");
@@ -106,7 +106,7 @@ public class TestCommandHelper {
         catch(Exception e) {
             fail(e.getMessage());
         }
-    }*/
+    }
 	
 	
 	@Test
