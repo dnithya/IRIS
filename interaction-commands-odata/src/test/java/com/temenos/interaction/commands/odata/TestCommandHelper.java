@@ -95,6 +95,20 @@ public class TestCommandHelper {
 		}
 	}
 
+	
+	/*@Test
+    public void testGetViewActionPropertyWithQueryParamsContainingBackslash() {
+        try {
+            InteractionContext ctx = createInteractionContextWithQueryParams("MyEntity", "foo....\bar");
+            String prop = CommandHelper.getViewActionProperty(ctx, "filter");
+            assertEquals("customer eq 'foo....\bar'", prop);
+        }
+        catch(Exception e) {
+            fail(e.getMessage());
+        }
+    }*/
+	
+	
 	@Test
 	public void testGetViewActionProperty() {
 		try {
